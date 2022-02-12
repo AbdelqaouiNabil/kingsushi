@@ -9,7 +9,27 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #000;
-  background-color: #f4ede5; }
+  background-color: #f4ede5; 
+ 
+}
+#loading {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  background-color: #e2e7ee;
+  z-index: 100000;
+}
+
+#loading img {
+  z-index: 10500;
+  
+}
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: 'Josefin Sans', sans-serif;
